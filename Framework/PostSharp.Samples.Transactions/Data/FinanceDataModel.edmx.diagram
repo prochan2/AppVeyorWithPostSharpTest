@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8ed9089c9f0e4783be1bb37f72c19e17" Name="Diagram1">
+        <EntityTypeShape EntityType="PostSharp.Samples.Transactions.Data.Finances.Account" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PostSharp.Samples.Transactions.Data.Finances.Operation" Width="1.5" PointX="3" PointY="4.25" />
+        <AssociationConnector Association="PostSharp.Samples.Transactions.Data.Finances.FK_Operation_To_Account" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
